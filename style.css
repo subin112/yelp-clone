@@ -104,6 +104,9 @@ top: -30px;
     fill: #f7f7f7;
     justify-content:left;
     margin-left: -50px;
+    position: absolute;
+    top: 70px;
+    left: 22.5%;
 }
 .boxer{
     display: block;
@@ -117,11 +120,7 @@ top: -30px;
     width: 100%;
 }
 .mid-header{
-    /* justify-content: center;
-    align-items: center;
-    margin: auto;
-    display: grid;
-    grid-template-columns: [slide-selection] 24px [slides] 1fr; */
+  
     max-width: 1243px;
     padding: 0 40px;
     margin: inline auto;
@@ -254,15 +253,16 @@ color: rgb(235, 235, 235);
 }
 .auto{
     margin: auto;
-    width: 66%;
-    row-gap: 10px;
+    width: 62%;
+    /* max-width: 1150px; */
+    row-gap: 30px;
     display: grid;
     grid-template-columns: repeat(4 ,1fr);
-    column-gap: 10px;
-    margin-top: 30px;
+    column-gap: 30px;
+    margin-top: 50px;
     margin-bottom: 30px;
     /* padding: 0 70px; */
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 .box{
     border: 1px solid rgb(235, 235, 235);
@@ -283,17 +283,28 @@ color: rgb(235, 235, 235);
 .center{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 .cat{
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
+.cat h1{
+    font-family: bold-text;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  line-height: 36px;
+
+  color: rgba(45,46,47,1);
+}
 .krish{
     width: 100%;
     background-color: #f7f7f7;
     height: 100%;
     margin-top: 50px;
+    position: relative;
 }
 .about{
     display: block;
@@ -302,18 +313,21 @@ color: rgb(235, 235, 235);
     list-style: none;
 }
 .flex-box{
+    position: relative;
     display: flex;
     justify-content: center;
     column-gap: 123px;
     padding-top: 55px;
     line-height: 30px;
-    padding-right: 161px;
+    /* padding-right: 174px; */
+    left: -80px;
 }
    
 .dham{
     display: flex;
     padding: 50px 50px;
-    margin-left: 260px;
+    margin-left: 299px;
+    column-gap: 4px;
 }
 .box1 input{
     border: none;
@@ -411,7 +425,7 @@ color: rgb(45, 46, 47);
 .class{
     width: 27%;
     position: absolute;
-    left: 17.7%;
+    left: 19.5%;
     top: 22%;
 }
 .fried p{
@@ -444,7 +458,7 @@ color: rgb(45, 46, 47);
   left: 14px;
 }
  .sign button{
-    padding: 0 20.344px;
+    padding: 0 15.344px;
     height: 44px;
     background-color: transparent;
     color: rgb(255, 255, 255);
@@ -452,7 +466,7 @@ cursor: pointer;
 font-family: medium;
 font-optical-sizing: auto;
 font-size: 16px;
-border: 2px solid #fff;
+border: 2px solid #c8c9ca;
 border-radius: 5px;
 }
 .log button{
@@ -573,6 +587,65 @@ font-size: 12px;
   color: rgba(255,255,255,1);
   text-align: left;
 }
-.down-table svg{
+.down-table div {
     padding-top: 10px;
+}
+
+
+
+@media (max-width:1732px){
+.table{
+    width: 20%;
+    position: absolute;
+    left: 14%;
+    top: 14%;
+
+}
+.header{
+    margin: 0;
+    /* width: 100%; */
+    flex-direction: column;
+}
+.right{
+    column-gap: 0;position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.box1{
+    padding-right: 0;
+    padding: 0;
+}
+.box2{
+    padding-right: 0;
+    padding-left: 0;
+}
+.class{
+    width: 37%;
+}
+
+
+}
+
+
+
+@media (max-width:1319px) {
+   
+.about{
+    width: 80%;
+}
+.flex-box{
+    left: 10%;
+    column-gap: 60px
+}
+.krish{
+    position: relative;
+    width: 100%;
+}
+.dham {
+    position: relative;
+    margin-left: 60px;
+    /* padding-left: 0; */
+    
+}
 }
