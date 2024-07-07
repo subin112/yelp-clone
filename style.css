@@ -635,17 +635,22 @@ font-size: 12px;
     width: 80%;
 }
 .flex-box{
-    left: 10%;
+    /* position: absolute; */
+left: 0;
+padding-left: 50px;
     column-gap: 60px
 }
 .krish{
-    position: relative;
-    width: 100%;
+    /* position: relative; */
+    /* width: 100%; */
 }
 .dham {
     position: relative;
     margin-left: 60px;
-    /* padding-left: 0; */
     
+}
+.auto{
+    margin-left: 0;
+    padding-left: 50px;
 }
 }
