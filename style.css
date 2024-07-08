@@ -590,7 +590,32 @@ font-size: 12px;
 .down-table div {
     padding-top: 10px;
 }
+.brut{
+    display: flex;
+    width: 70%;
+}
+.brut p{
+    color: rgb(255, 255, 255);
+cursor: pointer;
+font-family: bold;
+font-size: 16px;
+font-weight: 500;
+letter-spacing: -0.2px;
+line-height: 24px
 
+}
+.brut button{
+    padding: 13px 20px;
+    display: flex;
+    background-color: #e00707;
+    border: none;
+    border-radius: 5px;
+    margin: 25px 20px;
+
+}
+.brut svg{
+    fill: #fff;
+}
 
 
 @media (max-width:1732px){
@@ -653,4 +678,15 @@ padding-left: 50px;
     margin-left: 0;
     padding-left: 50px;
 }
+}
+@media (max-width:1170px) {
+    .brut button{
+        /* padding: 13px 10px; */
+        height: 50px;
+        width: 100%;
+    }
+    .brut p{
+width: 200px;
+display: flex;
+    }
 }
